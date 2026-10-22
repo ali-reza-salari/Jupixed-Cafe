@@ -1,0 +1,39 @@
+:root {
+    --primary: #311EQF;
+    --secondary: #D1AE8D;
+    --tertiary: #F4E4C9;
+    --fortiary: #838562;
+    --fivtiary: #525032;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+.text-secondary {
+    color: var(--secondary);
+}
+.text-tertiary {
+    color: var(--tertiary);
+}
+.text-fortiary {
+    color: var(--fortiary);
+}
+.text-fivtiary {
+    color: var(--fivtiary);
+}
+
+.bg-primary {
+    background: var(--primary);
+}
+.bg-secondary {
+    background: var(--secondary);
+}
+.bg-tertiary {
+    background: var(--tertiary);
+}
+.bg-fortiary {
+    background: var(--fortiary);
+}
+.bg-fivtiary {
+    background: var(--fivtiary);
+}

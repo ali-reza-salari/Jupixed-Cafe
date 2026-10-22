@@ -6,7 +6,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80",
         category: "Hot Drinks",
         stock: "available",
-        price: 85000,
+        price: 0.32,
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1551030173-122aabc4489c?auto=format&fit=crop&w=800&q=80",
         category: "Hot Drinks",
         stock: "available",
-        price: 95000,
+        price: 0.36,
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80",
         category: "Hot Drinks",
         stock: "available",
-        price: 125000,
+        price: 0.47,
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80",
         category: "Hot Drinks",
         stock: "available",
-        price: 135000,
+        price: 0.50,
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=800&q=80",
         category: "Hot Drinks",
         stock: "unavailable",
-        price: 155000,
+        price: 0.58,
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=800&q=80",
         category: "Hot Drinks",
         stock: "available",
-        price: 165000,
+        price: 0.62,
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
         category: "Cold Drinks",
         stock: "available",
-        price: 105000,
+        price: 0.39,
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80",
         category: "Cold Drinks",
         stock: "available",
-        price: 145000,
+        price: 0.54,
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
         category: "Cold Drinks",
         stock: "unavailable",
-        price: 165000,
+        price: 0.62,
     },
     {
         id: 10,
@@ -87,7 +87,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80",
         category: "Cold Drinks",
         stock: "available",
-        price: 185000,
+        price: 0.69,
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
         category: "Cold Drinks",
         stock: "available",
-        price: 175000,
+        price: 0.65,
     },
     {
         id: 12,
@@ -105,7 +105,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80",
         category: "Cold Drinks",
         stock: "available",
-        price: 160000,
+        price: 0.60,
     },
     {
         id: 13,
@@ -114,7 +114,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
         category: "Cakes & Desserts",
         stock: "available",
-        price: 145000,
+        price: 0.54,
     },
     {
         id: 14,
@@ -123,7 +123,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80",
         category: "Cakes & Desserts",
         stock: "available",
-        price: 165000,
+        price: 0.62,
     },
     {
         id: 15,
@@ -132,7 +132,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
         category: "Cakes & Desserts",
         stock: "unavailable",
-        price: 185000,
+        price: 0.69,
     },
     {
         id: 16,
@@ -141,7 +141,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
         category: "Cakes & Desserts",
         stock: "available",
-        price: 95000,
+        price: 0.36,
     },
     {
         id: 17,
@@ -150,7 +150,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=800&q=80",
         category: "Cakes & Desserts",
         stock: "available",
-        price: 155000,
+        price: 0.58,
     },
     {
         id: 18,
@@ -159,7 +159,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=800&q=80",
         category: "Cakes & Desserts",
         stock: "available",
-        price: 85000,
+        price: 0.32,
     },
     {
         id: 19,
@@ -168,7 +168,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
         category: "Bakery & Snacks",
         stock: "available",
-        price: 95000,
+        price: 0.36,
     },
     {
         id: 20,
@@ -177,7 +177,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=800&q=80",
         category: "Bakery & Snacks",
         stock: "unavailable",
-        price: 125000,
+        price: 0.47,
     },
     {
         id: 21,
@@ -186,7 +186,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=800&q=80",
         category: "Bakery & Snacks",
         stock: "available",
-        price: 115000,
+        price: 0.43,
     },
     {
         id: 22,
@@ -195,7 +195,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=800&q=80",
         category: "Bakery & Snacks",
         stock: "available",
-        price: 105000,
+        price: 0.39,
     },
     {
         id: 23,
@@ -204,7 +204,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
         category: "Bakery & Snacks",
         stock: "available",
-        price: 245000,
+        price: 0.92,
     },
     {
         id: 24,
@@ -213,7 +213,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=800&q=80",
         category: "Bakery & Snacks",
         stock: "unavailable",
-        price: 265000,
+        price: 0.99,
     },
     {
         id: 25,
@@ -222,7 +222,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
         category: "Tea & Other Drinks",
         stock: "available",
-        price: 65000,
+        price: 0.24,
     },
     {
         id: 26,
@@ -231,7 +231,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=80",
         category: "Tea & Other Drinks",
         stock: "available",
-        price: 75000,
+        price: 0.28,
     },
     {
         id: 27,
@@ -240,7 +240,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=800&q=80",
         category: "Tea & Other Drinks",
         stock: "unavailable",
-        price: 115000,
+        price: 0.43,
     },
     {
         id: 28,
@@ -249,7 +249,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1542990253-0b8be9b7c5fb?auto=format&fit=crop&w=800&q=80",
         category: "Tea & Other Drinks",
         stock: "available",
-        price: 135000,
+        price: 0.50,
     },
     {
         id: 29,
@@ -258,7 +258,7 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=800&q=80",
         category: "Tea & Other Drinks",
         stock: "available",
-        price: 175000,
+        price: 0.65,
     },
     {
         id: 30,
@@ -267,6 +267,6 @@ export const menuData = [
         imageUrl: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=800&q=80",
         category: "Tea & Other Drinks",
         stock: "available",
-        price: 125000,
+        price: 0.47,
     },
 ];

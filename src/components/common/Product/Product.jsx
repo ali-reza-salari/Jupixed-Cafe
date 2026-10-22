@@ -1,6 +1,6 @@
 export default function Product({ name , description , imageUrl , stock , price }) {
     return (
-        <div className="w-full">
+        <div className={`w-full ${stock === "unavailable" ? "opacity-50" : null} `} >
             <div className="flex w-full gap-3 md:gap-5 p-3 rounded-2xl">
                 <span className="w-30 h-30 md:w-50 md:h-50 shrink-0 overflow-hidden rounded-xl">
                     <img
@@ -17,7 +17,7 @@ export default function Product({ name , description , imageUrl , stock , price 
                         </div>
 
                         <div className={`flex items-center justify-between`}>
-                            <p>{price.toLocaleString()}</p>
+                            <p>$ {price}</p>
                             <p>{stock}</p>
                         </div>
                     </div>
