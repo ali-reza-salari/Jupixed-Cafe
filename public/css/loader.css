@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./custom-colors.css";
 
 .dark-mode {
     background: black;
