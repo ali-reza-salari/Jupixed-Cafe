@@ -1,18 +1,26 @@
-export default function Product({ name , description , imageUrl , stock , price }) {
+import {Link} from "react-router";
+
+export default function ProductCard({ name , description , imageUrl , stock , price }) {
+    const PRODUCT_URL = `product/${name}`
+
     return (
         <div className={`w-full ${stock === "unavailable" ? "opacity-50" : null}`}>
             <div className="flex w-full gap-3 md:gap-5 p-3 rounded-2xl">
                 <span className="w-30 h-30 md:w-50 md:h-50 shrink-0 overflow-hidden rounded-xl">
-                    <img
-                        className="w-full h-full object-cover object-center"
-                        src={imageUrl}
-                        alt={name}
-                    />
+                    <Link to={PRODUCT_URL}>
+                        <img
+                            className="w-full h-full object-cover object-center"
+                            src={imageUrl}
+                            alt={name}
+                        />
+                    </Link>
                 </span>
                 <div className="flex min-w-0 flex-1 items-center">
                     <div className="w-full min-w-0 flex flex-col gap-y-3">
                         <div className="text-lg md:text-3xl break-words">
-                            <p className={`font-bold`}>{name}</p>
+                            <Link to={PRODUCT_URL}>
+                                <p className={`font-bold`}>{name}</p>
+                            </Link>
                             <p className="limit-description-line text-sm md:text-base">{description}</p>
                         </div>
 
