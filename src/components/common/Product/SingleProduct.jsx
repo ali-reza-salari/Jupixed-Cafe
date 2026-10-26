@@ -1,8 +1,11 @@
 import {menuData} from "../../../data/menuData.js";
 import {useParams} from "react-router";
+import { useContext } from "react";
+import ThemeContext from "./../../../contexts/Theme.jsx"
 
-export default function SingelProduct() {
+export default function SingleProduct() {
     const { productTitle } = useParams()
+    const { theme } = useContext(ThemeContext);
     const mainProduct = menuData.find(item => item.name === productTitle);
 
     return (
@@ -17,7 +20,7 @@ export default function SingelProduct() {
                     <div className={`flex flex-col gap-2 md::gap-3 lg:gap-5`}>
                         <p className={`text-3xl md:text-4xl lg:text-5xl font-bold`}>{mainProduct.name}</p>
                         <p className={`md:text-2xl lg:text-3xl`}>{mainProduct.description}</p>
-                        <p className={``}>{mainProduct.category}</p>
+                        <p className={`${theme === "light" ? "bg-primary text-secondary" : "bg-secondary text-primary"} w-fit px-2 py-1 rounded-2xl`}>{mainProduct.category}</p>
                     </div>
 
                     <div className={`w-full mt-5`}>

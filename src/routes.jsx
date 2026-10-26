@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router";
 import AppLayout from "./components/layout/AppLayout.jsx";
 import HomePage from "./pages/Home/page.jsx";
-import SingelProduct from "./components/common/Product/SingelProduct.jsx";
+import SingleProduct from "./components/common/Product/SingleProduct.jsx";
 
 const routes = createBrowserRouter([
     {
@@ -14,7 +14,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "product/:productTitle",
-                element: <SingelProduct />
+                element: <SingleProduct />
             }
         ]
     }
