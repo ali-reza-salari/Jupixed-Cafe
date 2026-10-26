@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./custom-colors.css";
+@import "./theme-config.css";
 
 .dark-mode {
     background: black;

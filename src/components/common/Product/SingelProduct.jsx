@@ -15,7 +15,7 @@ export default function SingelProduct() {
                 </span>
                 <span className={`flex items-start justify-center flex-col gap-3 mt-5 md:mt-0`}>
                     <div className={`flex flex-col gap-2 md::gap-3 lg:gap-5`}>
-                        <p className={`text-3xl md:text-4xl lg:text-5xl font-bold text-primary`}>{mainProduct.name}</p>
+                        <p className={`text-3xl md:text-4xl lg:text-5xl font-bold`}>{mainProduct.name}</p>
                         <p className={`md:text-2xl lg:text-3xl`}>{mainProduct.description}</p>
                         <p className={``}>{mainProduct.category}</p>
                     </div>
