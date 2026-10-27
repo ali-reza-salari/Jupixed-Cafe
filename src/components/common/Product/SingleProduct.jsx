@@ -2,11 +2,22 @@ import {menuData} from "../../../data/menuData.js";
 import {useParams} from "react-router";
 import { useContext } from "react";
 import ThemeContext from "./../../../contexts/Theme.jsx"
+import { cardData , orderPrice } from "./../../../data/./cardData.js"
 
 export default function SingleProduct() {
     const { productTitle } = useParams()
     const { theme } = useContext(ThemeContext);
     const mainProduct = menuData.find(item => item.name === productTitle);
+    const addToCard = () => {
+        cardData.push({
+            imageUrl: mainProduct.imageUrl,
+            name: mainProduct.name,
+            price: mainProduct.price,
+        })
+
+        orderPrice.push(mainProduct.price);
+        console.log(orderPrice)
+    }
 
     return (
         <div className={`w-full mt-3 p-3 md:p-0`}>
@@ -26,6 +37,7 @@ export default function SingleProduct() {
                     <div className={`w-full mt-5`}>
                         <button
                             className={`w-full py-2 text-primary bg-secondary text-2xl md:text-3xl font-bold rounded-2xl cursor-pointer`}
+                            onClick={addToCard}
                         >
                             Add to Card
                         </button>
