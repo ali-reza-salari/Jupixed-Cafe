@@ -2,6 +2,7 @@ import {Outlet} from "react-router";
 import Header from "./../common/Header/Header.jsx"
 import {useContext} from "react";
 import ThemeContext from "../../contexts/Theme.jsx";
+import BottomNavbar from "./../common/BottomNavbar/BottomNavbar.jsx"
 
 export default function AppLayout() {
     const { theme } = useContext(ThemeContext)
@@ -10,6 +11,9 @@ export default function AppLayout() {
         <div className={`container`}>
             <Header />
             <Outlet />
+            <BottomNavbar />
+
+            <footer className={`mt-20`}></footer>
         </div>
     </section>
 }

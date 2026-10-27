@@ -23,8 +23,10 @@ export default function Header() {
                             theme === "light" ? <FaMoon className={`size-8`} /> : <FaSun className={`size-8`} />
                         }
                     </button>
-                    <button>
-                        <FaShoppingBag className={`size-8 cursor-pointer`} />
+                    <button className={`hidden md:block`}>
+                        <Link to={"/card"}>
+                            <FaShoppingBag className={`size-8 cursor-pointer`} />
+                        </Link>
                     </button>
                 </div>
             </div>
