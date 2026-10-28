@@ -37,7 +37,9 @@
 .bg-fivtiary {
     background: var(--fivtiary);
 }
-
+.border-primary {
+    border-color: var(--primary);
+}
 .border-secondary {
     border-color: var(--secondary);
 }

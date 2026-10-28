@@ -20,12 +20,12 @@ export default function Header() {
                         onClick={toggleTheme}
                     >
                         {
-                            theme === "light" ? <FaMoon className={`size-8`} /> : <FaSun className={`size-8`} />
+                            theme === "light" ? <FaMoon className={`size-6`} /> : <FaSun className={`size-6`} />
                         }
                     </button>
                     <button className={`hidden md:block`}>
                         <Link to={"/card"}>
-                            <FaShoppingBag className={`size-8 cursor-pointer`} />
+                            <FaShoppingBag className={`size-6 cursor-pointer`} />
                         </Link>
                     </button>
                 </div>

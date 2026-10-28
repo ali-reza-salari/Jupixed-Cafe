@@ -4,13 +4,18 @@ import OrderBox from "./../PayOrderBox/OrderBox.jsx"
 import { useId , useState } from "react"
 
 export default function Card() {
+    const [ orders , setOrders ] = useState(cardData)
+    const deleteOrder = (name) => {
+        setOrders(prevOrder => prevOrder.filter(order => order.name !== name))
+    }
+
     return (
         <div className={`grid grid-cols-1 md:grid-cols-2`}>
-            <div className={`h-150 overflow-y-auto`}>
+            <div className={`h-100 overflow-y-auto`}>
                 {
-                    cardData.map(card => {
+                    orders.map(newOrder => {
                         return (
-                            <OrderBox {...card} />
+                            <OrderBox {...newOrder} onDelete={() => deleteOrder(newOrder.name)} />
                         )
                     })
                 }

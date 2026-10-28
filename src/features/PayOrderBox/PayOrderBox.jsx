@@ -1,7 +1,9 @@
-import { useState , useEffect } from 'react';
-import { cardData , orderPrice } from "./../../data/cardData.js"
+import { useContext } from 'react';
+import { orderPrice , cardData } from "./../../data/cardData.js"
+import ThemeContext from "../../contexts/Theme.jsx";
 
 export default function PayOrderBox() {
+    const { theme } = useContext(ThemeContext);
     const totalPrice = Number(orderPrice.reduce((total , price) => total + price, 0).toFixed(2))
     const taxRate = Number((totalPrice * 0.1).toFixed(2))
     const finalPrice = (totalPrice + taxRate).toFixed(2)
@@ -26,7 +28,7 @@ export default function PayOrderBox() {
                     <span>${finalPrice}</span>
                 </div>
 
-                <button className={`w-full py-2 text-primary bg-secondary text-2xl md:text-3xl font-bold rounded-2xl cursor-pointer`}>Pay</button>
+                <button className={`w-full py-2 ${theme === "light" ? "bg-primary text-secondary" : "bg-secondary text-primary"} text-2xl md:text-3xl font-bold rounded-2xl cursor-pointer`}>Pay</button>
             </div>
         </div>
     )

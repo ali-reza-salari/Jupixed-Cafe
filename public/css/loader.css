@@ -1,11 +1,5 @@
 @import "tailwindcss";
 @import "./custom-colors.css";
-@import "./theme-config.css";
-
-.dark-mode {
-    background: black;
-    color: white;
-}
 
 .limit-title-line {
     display: -webkit-box;
