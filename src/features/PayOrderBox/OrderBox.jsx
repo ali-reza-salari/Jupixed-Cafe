@@ -1,11 +1,11 @@
 import { BiX } from "react-icons/bi";
 
-export default function OrderBox({ name , imageUrl , price , setPrice , numberOfOrders , onDelete }) {
+export default function OrderBox({ name , imageUrl , price , numberOfOrders }) {
     return (
         <div className={`w-full`}>
             <div className="flex w-full gap-3 md:gap-5 p-3 rounded-2xl">
                 <span className="w-20 md:w-30 h-20 md:h-30 shrink-0 overflow-hidden rounded-xl relative">
-                    <button className={`absolute cursor-pointer`} onClick={onDelete}>
+                    <button className={`absolute cursor-pointer`}>
                         <BiX className={`size-6`} />
                     </button>
                     <img
