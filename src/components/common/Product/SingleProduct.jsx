@@ -2,12 +2,13 @@ import { menuData } from "../../../data/menuData.js";
 import { useParams } from "react-router";
 import { useContext , useState } from "react";
 import ThemeContext from "./../../../contexts/Theme.jsx"
-import { cardData , orderPrice } from "./../../../data/./cardData.js"
+import CardContext from "./../../../contexts/CardContext.jsx"
 import { FaPlus , FaMinus } from "react-icons/fa";
 
 export default function SingleProduct() {
     const { productTitle } = useParams()
     const { theme } = useContext(ThemeContext);
+    const { cardItems , addItems } = useContext(CardContext)
     const [ numOfOrders , setNumOfOrders ] = useState(1);
     const mainProduct = menuData.find(item => item.name === productTitle);
     const [ ordersPrice , setOrdersPrice ] = useState(mainProduct.price);
@@ -24,15 +25,14 @@ export default function SingleProduct() {
             setOrdersPrice(prev => Number(prev - mainProduct.price).toFixed(2));
         }
     }
+
     const addToCard = () => {
-        cardData.push({
+        addItems({
             imageUrl: mainProduct.imageUrl,
             name: mainProduct.name,
             price: ordersPrice,
             numberOfOrders: numOfOrders,
         })
-
-        orderPrice.push(Number(ordersPrice));
     }
 
     return (

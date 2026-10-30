@@ -1,12 +1,14 @@
 import { useContext } from 'react';
-import { orderPrice , cardData } from "./../../data/cardData.js"
+import CardContext from "./../../contexts/CardContext.jsx"
 import ThemeContext from "../../contexts/Theme.jsx";
 
 export default function PayOrderBox() {
     const { theme } = useContext(ThemeContext);
-    const totalPrice = Number(orderPrice.reduce((total , price) => total + price, 0).toFixed(2))
+    const { cardItems } = useContext(CardContext)
+    const getPrices = cardItems.map(({ price }) => price);
+    const totalPrice = Number(getPrices.reduce((total , price) => total + price, 0).toFixed(2))
     const taxRate = Number((totalPrice * 0.1).toFixed(2))
-    const finalPrice = (totalPrice + taxRate).toFixed(2)
+    const finalPrice = Number(totalPrice + taxRate).toFixed(2)
 
     return (
         <div>
