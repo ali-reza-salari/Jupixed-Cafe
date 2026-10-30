@@ -173,8 +173,10 @@ Possible next steps for the project include:
 
 **Ali Reza Salari**
 
-- GitHub: [@ali-reza-salari](https://github.com/ali-reza-salari)
-- LinkedIn: [Ali Reza Salari](https://www.linkedin.com/in/ali-reza-salari/)
+- **GitHub:** [ali-reza-salari](https://github.com/ali-reza-salari)
+- **LinkedIn:** [Ali Reza Salari](https://www.linkedin.com/in/ali-reza-salari/)
+- **Instagram:** [alireza_salari.dev](https://www.instagram.com/alireza_salari.dev?stkn=c3I1Zm04bjlwZ28y)
+- **My Website:** [Jupixed](https://jupixed.ir/)
 
 ---
 
