@@ -192,7 +192,7 @@ export const menuData = [
         id: 22,
         name: "Garlic Bread",
         description: "Toasted bread topped with garlic butter and aromatic herbs.",
-        imageUrl: "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=800&q=80",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbFVkwyyndC8C6vkohVkeyUF3qSk0IJNYuzYuELD1WgA&s=10",
         category: "Bakery & Snacks",
         stock: "available",
         price: 0.39,
